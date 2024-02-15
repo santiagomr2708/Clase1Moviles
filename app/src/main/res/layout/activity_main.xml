@@ -45,4 +45,14 @@
         </Button>
     </LinearLayout>
 
+    <LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsend"
+            android:text="@string/btnsend">
+
+        </Button>
+    </LinearLayout>
 </LinearLayout>
