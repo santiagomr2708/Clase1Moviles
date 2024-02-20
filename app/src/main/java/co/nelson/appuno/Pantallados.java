@@ -2,6 +2,7 @@ package co.nelson.appuno;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,6 +12,8 @@ import android.widget.TextView;
 public class Pantallados extends AppCompatActivity {
 
     TextView usuariodos,textoAnterior;
+
+    String Tag = "Prueba";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

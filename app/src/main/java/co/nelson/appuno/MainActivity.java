@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.content.Intent;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void pasarInformacion(){
         String textoactual = nombreUsuario.getText().toString();
-        String nombre = "Juan Carlos"
+        String nombre = "Juan Carlos";
         Intent pasarinfo = new Intent(this,Pantallados.class);
         pasarinfo.putExtra("name",nombre);
         startActivity(pasarinfo);
